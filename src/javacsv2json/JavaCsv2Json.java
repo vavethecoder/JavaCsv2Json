@@ -15,7 +15,6 @@ public class JavaCsv2Json {
 
     public static void main(String[] args) {
         BufferedReader bufferReader = null;
-        String startLine = "";
         String splitBy = ",";
         try {
             bufferReader = new BufferedReader(new FileReader("Data - Sheet1.csv"));
